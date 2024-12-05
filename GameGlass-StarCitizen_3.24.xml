@@ -123,6 +123,44 @@
    <rebind input="kb1_lctrl+num2"/>
   </action>  
  </actionmap>
+  <actionmap name="spaceship_salvage">
+  <action name="v_salvage_cycle_modifiers_left">
+   <rebind input="kb1_ralt+l"/>
+  </action>
+  <action name="v_salvage_cycle_modifiers_right">
+   <rebind input="kb1_ralt+r"/>
+  </action>
+  <action name="v_salvage_decrease_beam_spacing">
+   <rebind input="kb1_ralt+comma"/>
+  </action>
+  <action name="v_salvage_increase_beam_spacing">
+   <rebind input="kb1_ralt+period"/>
+  </action>
+  <action name="v_salvage_nudge_down__left">
+   <rebind input="kb1_ralt+end"/>
+  </action>
+  <action name="v_salvage_nudge_down__right">
+   <rebind input="kb1_rctrl+insert"/>
+  </action>
+  <action name="v_salvage_nudge_left__left">
+   <rebind input="kb1_ralt+delete"/>
+  </action>
+  <action name="v_salvage_nudge_left__right">
+   <rebind input="kb1_rctrl+delete"/>
+  </action>
+  <action name="v_salvage_nudge_right__left">
+   <rebind input="kb1_ralt+pgdn"/>
+  </action>
+  <action name="v_salvage_nudge_right__right">
+   <rebind input="kb1_rctrl+pgdn"/>
+  </action>
+  <action name="v_salvage_nudge_up__left">
+   <rebind input="kb1_ralt+home"/>
+  </action>
+  <action name="v_salvage_nudge_up__right">
+   <rebind input="kb1_rctrl+home"/>
+  </action>
+ </actionmap>
  <actionmap name="spaceship_movement">
   <action name="v_ifcs_speed_limiter_reset_scm">
    <rebind input="kb1_lalt+s"/>
