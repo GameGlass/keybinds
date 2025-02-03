@@ -13,43 +13,11 @@
   <action name="v_lock_all_doors">
    <rebind input="kb1_rctrl+rbracket"/>
   </action>
-  <action name="v_toggle_all_doors">
-   <rebind input="kb1_lctrl+k"/>
-  </action>
   <action name="v_open_all_doors">
    <rebind input="kb1_lalt+o"/>
   </action>
   <action name="v_unlock_all_doors">
    <rebind input="kb1_lalt+u"/>	
-  </action>
-  <action name="v_toggle_all_doorlocks">
-   <rebind input="kb1_lctrl+l"/>
-  </action>
- </actionmap>
- <actionmap name="spaceship_power">
-  <action name="v_power_set_on">
-   <rebind input="kb1_lctrl+u"/>
-  </action>
-  <action name="v_power_set_off">
-   <rebind input="kb1_lctrl+u" activationMode="double_tap"/>
-  </action>
-  <action name="v_power_set_thrusters_on">
-   <rebind input="kb1_lctrl+i"/>
-  </action>
-  <action name="v_power_set_thrusters_off">
-   <rebind input="kb1_lctrl+i" activationMode="double_tap"/>
-  </action>
-  <action name="v_power_set_shields_on">
-   <rebind input="kb1_lctrl+o"/>
-  </action>
-  <action name="v_power_set_shields_off">
-   <rebind input="kb1_lctrl+o" activationMode="double_tap"/>
-  </action>
-  <action name="v_power_set_weapons_on">
-   <rebind input="kb1_lctrl+p"/>
-  </action>
-  <action name="v_power_set_weapons_off">
-   <rebind input="kb1_lctrl+p" activationMode="double_tap"/>
   </action>
  </actionmap>
   <actionmap name="spaceship_weapons">
@@ -70,28 +38,22 @@
 </actionmap>
  <actionmap name="spaceship_targeting_advanced">
   <action name="v_target_cycle_friendly_back">
-   <rebind input="kb1_lctrl+6"/>
+   <rebind input="kb1_lalt+6"/>
   </action>
   <action name="v_target_cycle_hostile_back">
-   <rebind input="kb1_lctrl+5"/>
+   <rebind input="kb1_lalt+5"/>
   </action>
-  <action name="v_target_cycle_pinned_back">
-   <rebind input="kb1_2" multiTap="2"/>
-  </action>
-  <action name="v_target_cycle_pinned_fwd">
-   <rebind input="kb1_3" multiTap="2"/>
-  </action> -->
   <action name="v_target_cycle_subitem_back">
-   <rebind input="kb1_lctrl+8"/>
+   <rebind input="kb1_lalt+8"/>
   </action>
   <action name="v_target_cycle_in_view_back">
    <rebind input="kb1_lalt+v"/>
   </action>
   <action name="v_target_cycle_attacker_back">
-   <rebind input="kb1_lctrl+4"/>
+   <rebind input="kb1_lalt+4"/>
   </action>
   <action name="v_target_cycle_all_back">
-   <rebind input="kb1_lctrl+7"/>
+   <rebind input="kb1_lalt+7"/>
   </action>
  </actionmap>
 <actionmap name="seat_general">
@@ -181,7 +143,7 @@
    <rebind input="kb1_lalt+i"/>
   </action>
   <action name="v_ifcs_toggle_esp">
-   <rebind input="kb1_lalt+e"/>
+   <rebind input="kb1_lalt+semicolon"/>
   </action>
   <action name="v_master_mode_set_scm">
    <rebind input="kb1_ralt+insert"/>
@@ -236,9 +198,6 @@
   </action>
   <action name="v_lock_all_doors">
    <rebind input="kb1_rctrl+rbracket"/>
-  </action>
-  <action name="v_toggle_all_doorlocks">
-   <rebind input="kb1_lctrl+l"/>
   </action>
   <action name="v_open_all_doors">
    <rebind input="kb1_lalt+o"/>
