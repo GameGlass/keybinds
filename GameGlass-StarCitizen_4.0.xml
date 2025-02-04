@@ -85,6 +85,11 @@
    <rebind input="kb1_lctrl+num2"/>
   </action>  
  </actionmap>
+  <actionmap name="turret_advanced">
+  <action name="turret_change_firemode">
+   <rebind input="kb1_b"/>
+  </action>
+ </actionmap>
   <actionmap name="spaceship_salvage">
   <action name="v_salvage_cycle_modifiers_left">
    <rebind input="kb1_ralt+l"/>
