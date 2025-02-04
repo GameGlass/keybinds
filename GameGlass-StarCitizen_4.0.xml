@@ -131,10 +131,10 @@
  <actionmap name="spaceship_movement">
   <action name="v_ifcs_speed_limiter_reset_scm">
    <rebind input="kb1_lalt+s"/>
-  </action>  
-  <action name="v_ifcs_toggle_speed_limiter">
+  </action> 
+    <action name="v_ifcs_limiter_toggle">
    <rebind input="kb1_lalt+minus"/>
-  </action>
+  </action> 
   <action name="v_speed_range_up">
    <rebind input="kb1_lalt+y"/>
   </action>
