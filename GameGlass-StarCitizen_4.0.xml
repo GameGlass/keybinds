@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="GameGlass Keyboard 4.0">
- <CustomisationUIHeader label="GameGlass Keyboard 4.0" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="GameGlass Keyboard 4.6">
+ <CustomisationUIHeader label="GameGlass Keyboard 4.6" description="" image="">
   <devices>
    <keyboard instance="1"/>
   </devices>
@@ -85,14 +85,9 @@
    <rebind input="kb1_lctrl+num2"/>
   </action>  
  </actionmap>
-  <actionmap name="turret_advanced">
-  <action name="turret_change_firemode">
-   <rebind input="kb1_b"/>
-  </action>
- </actionmap>
   <actionmap name="spaceship_salvage">
   <action name="v_salvage_cycle_modifiers_left">
-   <rebind input="kb1_ralt+l"/>
+   <rebind input="kb1_ralt+u"/>
   </action>
   <action name="v_salvage_cycle_modifiers_right">
    <rebind input="kb1_ralt+r"/>
@@ -131,10 +126,10 @@
  <actionmap name="spaceship_movement">
   <action name="v_ifcs_speed_limiter_reset_scm">
    <rebind input="kb1_lalt+s"/>
-  </action> 
-    <action name="v_ifcs_limiter_toggle">
+  </action>  
+  <action name="v_ifcs_speed_limiter_toggle">
    <rebind input="kb1_lalt+minus"/>
-  </action> 
+  </action>
   <action name="v_speed_range_up">
    <rebind input="kb1_lalt+y"/>
   </action>
